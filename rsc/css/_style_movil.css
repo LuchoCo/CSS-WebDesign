@@ -1,0 +1,12 @@
+@media (max-width: 899px) {
+	header#Cabecera {
+		justify-content:center;
+		text-align: center;
+	}
+	nav#Menu, #Cabecera>h1{
+		width: 100%
+	}
+	nav#Menu>ul>li{
+		font-size: 1.2em;
+	}
+}

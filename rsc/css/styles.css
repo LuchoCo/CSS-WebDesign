@@ -1,0 +1,103 @@
+/* Hoja de estilos ára las paginas del Proyecto de evaluacion CSS Y Diseño Web de NExt-U */
+@import url('_style_movil.css') (max-width: 899px);
+@import url('_style_desktop.css') (min-width: 900px);
+
+/* INDICE 
+	1. General
+	2. Cabecera - Header
+	3. Footer - Pie de Pagina 
+
+/***************************
+  1. General 
+****************************/
+/*	-Utiliza la tipografía Dancing Script.-
+	-Establece el color de fondo negro #02010a.-
+	-Cada imagen tiene un efecto de sombra de 2px con color #02010a.-
+	-Crea un div llamado contenido que este centrado y que tenga máximo 900px de ancho para desktop 
+	 y ocupará el 100% para móviles.
+	-Utiliza media queries para manejar dos tamaños Desktop: con ancho de 900px o más y móvil con 
+	 menos de 900px.
+	-Las imágenes deben ser responsivas
+*/
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+*{
+	font-family: 'Dancing Script', cursive; 
+	background-color: #02010a
+
+}
+a{
+	text-decoration:underline;
+}
+
+
+
+
+/***************************
+  2. Cabecera - Header 
+****************************/
+/*Establece el fondo de color #5b7989.
+	-Agrega el Nombre del sitio "Comenzando con la fotografía" ubicado al lado izquierdo, en blanco la 
+	 letra debe tener una sombra de 2px de color #02010a.
+	-Aplica bordes redondeados en las esquinas superiores a 10px.
+	-Desarrolla un menú, para la versión desktop, a la derecha con enlaceas a tres páginas: Inicio, 
+	 Paisajes, Retratos. La página actual debe tener estilo sin subrayado.
+*/
+header#Cabecera {
+	background-color: #5b7989;
+	border-radius: 10px 10px 0 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	align-content: space-between;
+	min-height: 10vh;
+	color: #FFFFFF;
+	margin:0;
+	margin-bottom: 2em;
+	padding-top: 1em;
+
+
+
+
+}
+nav#Menu{
+	background-color: inherit;
+}
+nav#Menu> ul {
+	list-style: none;
+	min-height: 10vh;
+	flex-wrap: wrap;
+	background-color:inherit;
+
+}
+
+nav#Menu>ul>li{
+	display: inline-flex;
+	text-align: center;
+	align-items: center;
+	min-height: 10vh;
+	padding: 0.5em .8em;
+	background-color:inherit;
+
+}
+#Cabecera a{
+	color: #fff;
+	background-color:inherit;
+
+}
+
+a.active{
+	text-decoration: none;
+}
+h1{
+	text-shadow: 2px 2px 4px #02010a;
+	background-color:inherit;
+}
+
+
+/***************************
+  3. Footer - Pie de Pagina 
+****************************/
+
+
