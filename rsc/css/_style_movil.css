@@ -1,4 +1,7 @@
 @media (max-width: 899px) {
+	#contenido{
+		width: 100%
+	}
 	header#Cabecera {
 		justify-content:center;
 		text-align: center;
@@ -8,5 +11,11 @@
 	}
 	nav#Menu>ul>li{
 		font-size: 1.2em;
+	}
+
+	footer>section{
+	width: 100%;
+	text-align:center;
+
 	}
 }

@@ -1,10 +1,17 @@
 @media (min-width: 900px) {
- header#Cabecera {
- 	flex-wrap: nowrap;
- 	padding: 0 5vw;
+	#contenido{
+		max-width: 900px;
+	}
+ 	header#Cabecera {
+	 	flex-wrap: nowrap;
+	 	padding: 0 2vw;
 
- }
-nav#Menu>ul>li{
-		font-size: 1.5em;
+ 	}
+	nav#Menu>ul>li{
+		font-size: 1.2em;
+	}
+	footer>section{
+		max-width: 20%;
+
 	}
 }
