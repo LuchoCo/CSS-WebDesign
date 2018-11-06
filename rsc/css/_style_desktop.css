@@ -14,4 +14,7 @@
 		max-width: 20%;
 
 	}
+	#secundarias>article{
+		width: 40%;
+	}
 }

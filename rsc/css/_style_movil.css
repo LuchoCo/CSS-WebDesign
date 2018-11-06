@@ -10,12 +10,15 @@
 		width: 100%
 	}
 	nav#Menu>ul>li{
-		font-size: 1.2em;
+		font-size: 1.0em;
 	}
 
 	footer>section{
 	width: 100%;
 	text-align:center;
 
+	}
+	#secundarias>article{
+		width: 100%;
 	}
 }
