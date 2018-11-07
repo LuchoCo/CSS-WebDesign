@@ -21,4 +21,7 @@
 	#secundarias>article{
 		width: 100%;
 	}
+	.galeria>figure{
+		width: 100%
+	}
 }

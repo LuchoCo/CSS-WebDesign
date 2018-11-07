@@ -177,6 +177,9 @@ figure{
 	-webkit-transition: 0.5s ease-in-out;
  	 transition: .5s ease-in-out;
 }
+.paisaje:hover>figure>img, .retrato:hover>figure>img{
+	box-shadow: 2px 2px #82c3a6;
+}
 .paisaje:hover>figure{
 	-ms-transform: rotate(10deg); /* IE 9 */
     -webkit-transform: rotate(10deg); /* Safari 3-8 */
@@ -188,4 +191,34 @@ figure{
 
 	transform:translate(20px,-5px);
 
+}
+
+/***************
+	5.Galerias
+****************/
+.galeria{
+	background-color: #d5c75f;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: space-around;
+	min-height: 10vh;
+	margin:0;
+	padding: 1em 2vw;
+	border: 1px;
+}
+.galeria figure:first-child>img{
+	-webkit-filter: blur(10px);
+    filter: blur(10px);
+
+}
+.galeria figure:nth-child(even)>img{
+	-webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+
+}
+.galeria figure:nth-child(3)>img{
+	-webkit-filter: sepia(90%);
+    filter: sepia(90%);
 }

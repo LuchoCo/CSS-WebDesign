@@ -17,4 +17,7 @@
 	#secundarias>article{
 		width: 40%;
 	}
+	.galeria>figure{
+		width: 30%;
+	}
 }
